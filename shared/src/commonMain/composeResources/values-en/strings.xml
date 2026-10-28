@@ -8,8 +8,6 @@
 
     <!-- Product -->
     <string name="product_duplicate_suffix"> - Copy</string>
-    <!-- Document footer -->
-    <string name="document_default_footer"></string>
     <string name="document_default_payment_terms">In the event of late payment, a penalty at the legal rate in force will be applied, plus a fixed indemnity of €40. No discount for early payment.</string>
     <string name="document_payment_terms">Payment terms</string>
     <string name="payment_terms_recovery_fees_label">Recovery fees</string>
@@ -37,7 +35,6 @@
     <string name="document_payment_section_title">Payment</string>
     <string name="invoice_paid">Paid ✔</string>
     <string name="pdf_currency_notice">Currency: %1$s</string>
-
     <!-- Document table -->
     <string name="document_table_description">Description</string>
     <string name="document_table_quantity">Qty</string>
@@ -59,8 +56,6 @@
     <string name="product_price_with_tax">Incl. tax</string>
     <!-- Alert Dialog Strings -->
     <string name="alert_dialog_delete_invoice_1">Are you sure? \n\nIn some countries, it is not legal to delete an invoice that has already been sent.\n\nIn any case, deletion is irreversible.</string>
-    <string name="alert_dialog_delete_invoice_2"></string>
-    <string name="alert_dialog_delete_invoice_3"></string>
     <string name="alert_dialog_delete_url">https://www.the-gate.fr/en</string>
     <string name="alert_dialog_delete_general">Are you sure? This action is irreversible.</string>
     <string name="alert_dialog_delete_confirm">Yes, delete</string>
@@ -118,13 +113,11 @@
     <string name="document_product_advice">To edit a product, click on the grey box</string>
     <string name="document_product_advice_2">The change only applies to this document…</string>
     <string name="document_product_advice_3">It does not affect the product saved in the "Products" tab.</string>
-
     <!-- Invoice list row — due-date countdown -->
     <string name="document_list_due_in_day">Due in %1$d day</string>
     <string name="document_list_due_in_days">Due in %1$d days</string>
     <string name="document_list_overdue_day">%1$d d overdue</string>
     <string name="document_list_overdue_days">%1$d d overdue</string>
-
     <!-- Product Form Strings -->
     <string name="product_name">Name</string>
     <string name="product_name_input">Beetroots</string>
@@ -144,7 +137,6 @@
     <string name="product_delete_price">Delete this price</string>
     <string name="document_product_quantity">Quantity</string>
     <string name="document_product_quantity_input">1</string>
-
     <!-- Client/Issuer Form Strings -->
     <string name="client_section_identity">IDENTITY</string>
     <string name="client_section_address">ADDRESS</string>
@@ -225,13 +217,11 @@
     <string name="whats_new_done">Let's go!</string>
     <string name="whats_new_welcome">Welcome to %1$s!</string>
     <string name="whats_new_discover">Lots of new features</string>
-
     <!-- WhatsNew 2.2 slides -->
     <string name="whats_new_22_dashboard_title">Dashboard</string>
     <string name="whats_new_22_dashboard_description">See your sales amount and best-selling products month by month, with visual charts. Access a monthly statement per client of all your documents. (premium module)</string>
     <string name="whats_new_22_sales_order_title">Sales orders</string>
     <string name="whats_new_22_sales_order_description">Create sales orders and convert them into an invoice or delivery note. (premium module)</string>
-
     <string name="whats_new_gstore_title">𝕘Store</string>
     <string name="whats_new_gstore_description">A little shop to unlock features.</string>
     <string name="whats_new_spanish_title">Hola, qué tal ?</string>
@@ -286,12 +276,10 @@
     <string name="appbar_tag_reminded">Reminded</string>
     <string name="appbar_product_add">Add product</string>
     <string name="appbar_product_edit">Edit product</string>
-
     <!-- Drawer / Categories -->
     <string name="drawer_g8">Info</string>
     <string name="drawer_my_account">My Account</string>
     <string name="drawer_my_company">My business</string>
-
     <!-- First-launch onboarding: 5-slide wizard shown when no issuer exists in DB -->
     <string name="first_launch_welcome_title">Welcome to 𝕘𝟠 aka The Gate!</string>
     <string name="first_launch_welcome_amigo">I'm Little Rhino, your new amigo ♡</string>
@@ -444,7 +432,6 @@
     <string name="invoice_advice_legal_1">Tap «Create» to make your first invoice</string>
     <string name="invoice_advice_legal_2">Every document you create is saved automatically in the background. \n\n 𝕓𝕖𝕔𝕒𝕦𝕤𝕖 𝕚𝕞 𝕒 𝕓𝕒𝕥 𝕓𝕠𝕤𝕤 </string>
     <string name="onboarding_intro_amigo">Welcome to 𝕘𝟠 aka The Gate!\n\n I'm Little Horseshoe, your new amigo ♡</string>
-
     <string name="invoice_advice_legal_3">mandatory information for a compliant invoice. To make your life easier, I've summarised everything here: \n</string>
     <string name="invoice_advice_legal_4">the-gate.fr</string>
     <string name="invoice_advice_legal_5"> \n\n On another note… \n …</string>
@@ -494,7 +481,6 @@
     <!-- Reminder email (invoice past due) -->
     <string name="send_reminder_email_subject">Reminder: invoice #%1$s</string>
     <string name="send_reminder_email_content">Hello, \n\n Your invoice %1$s for the amount of %4$s%2$s was due on %3$s. We have not yet received your payment.\n\n We kindly ask you to proceed with the payment as soon as possible.\n\n Best regards\n</string>
-
     <!-- Database export dialog -->
     <string name="database_export_dialog_title">^._.^</string>
     <string name="database_export_dialog_intro">Hey! I recommend downloading your database 💎\n\n</string>
@@ -512,7 +498,6 @@
     <string name="database_email_subject">Export of my g8 data</string>
     <string name="database_email_body">My SQLite database from the g8 app. It contains all my data (clients, products, invoicing data..). If I lose my phone, this database can be used to restore my data. For any questions: contact@the-gate.fr.</string>
     <string name="database_email_chooser">Send the database by email</string>
-
     <!-- gStore Quote (unlimited + trial) -->
     <string name="gstore_module_quote_title">Unlimited quotes</string>
     <string name="gstore_module_quote_desc">Create quotes and convert them to invoices</string>
@@ -523,33 +508,27 @@
     <string name="gstore_quote_trial_exhausted_title">Free quotes used up</string>
     <string name="gstore_quote_trial_exhausted_body">Your 5 free quotes are used up. If you would like to keep using quotes, you can become a premium member.</string>
     <string name="gstore_quote_trial_exhausted_cta">OK</string>
-
     <!-- Onboarding 1.8 -->
     <string name="onboarding_previous">Back</string>
     <string name="onboarding_next">Next</string>
     <string name="onboarding_yes">Yes</string>
     <string name="onboarding_no">No</string>
-
     <string name="onboarding_welcome_body">Welcome to version\n1.8 - Rosa Canina</string>
     <string name="onboarding_welcome_cta">Discover</string>
-
     <string name="onboarding_devis_title">Quotes</string>
     <string name="onboarding_devis_body_bold">Quotes are now available</string>
     <string name="onboarding_devis_body_after_bold"> 🥳\n\nAnd you can convert them to invoices.\n\nYou can try the feature (5 quotes max) then become a premium member for unlimited quotes!</string>
     <string name="onboarding_devis_cta_activate">Enable quotes</string>
     <string name="onboarding_devis_cta_later_gstore">Later in the gStore</string>
     <string name="onboarding_devis_cta_no_devis">Cool, but I do not need it!</string>
-
     <string name="onboarding_facturx_title">New fields</string>
     <string name="onboarding_facturx_body_before_bold">I have started adding fields to make invoices standardised, more readable and ready for electronic invoicing.\n\n</string>
     <string name="onboarding_facturx_body_bold">I need you for a few settings.</string>
     <string name="onboarding_facturx_cta">OK</string>
-
     <string name="onboarding_privacy_title">Privacy</string>
     <string name="onboarding_privacy_body_p1">Just so you know, I do not have access to the answers you will give me — your data is only stored on your phone.</string>
     <string name="onboarding_privacy_body_p2">By the way, would you like to make a quick backup?</string>
     <string name="onboarding_privacy_cta_backup">Back up my database</string>
-
     <string name="onboarding_cleanup_title">Your businesses</string>
     <string name="onboarding_cleanup_body_part1">I see you are managing several businesses.\n\nIf there are any you no longer use, </string>
     <string name="onboarding_cleanup_body_bold_delete_here">you can delete them here</string>
@@ -558,49 +537,38 @@
     <string name="onboarding_cleanup_delete_confirm_title">Delete this business?</string>
     <string name="onboarding_cleanup_delete_confirm_yes">Delete</string>
     <string name="onboarding_cleanup_delete_confirm_no">Cancel</string>
-
     <string name="onboarding_issuer_country_subtitle">Which country is %1$s based in?</string>
     <string name="onboarding_issuer_country_pick">Choose a country</string>
-
     <string name="onboarding_vat_subtitle">Are you exempt from VAT?</string>
     <string name="onboarding_vat_option_franchise">I am VAT-exempt</string>
     <string name="onboarding_vat_option_tva">I charge VAT</string>
     <string name="onboarding_vat_option_dontknow">I do not know</string>
-
     <string name="onboarding_vat_dontknow_title">No worries</string>
     <string name="onboarding_vat_dontknow_body">To find out whether it applies to you, check your latest tax notice or ask your accountant.\n\nMeanwhile, I will assume you charge VAT. You can change this later in your business settings.</string>
     <string name="onboarding_vat_dontknow_cta">OK</string>
-
     <string name="onboarding_intraeu_subtitle">Do you ever sell to customers in another EU country?</string>
-
     <string name="onboarding_nature_title">Product type</string>
     <string name="onboarding_nature_intro">For businesses with intra-EU exemption, the tax code depends on whether you sell goods or services.</string>
     <string name="onboarding_nature_question">Do your products fall under…</string>
     <string name="onboarding_nature_only_services">Services only</string>
     <string name="onboarding_nature_only_goods">Goods only</string>
     <string name="onboarding_nature_mixed">A bit of both</string>
-
     <string name="onboarding_issuers_done_title">Done</string>
     <string name="onboarding_issuers_done_body_singular">Your business settings are saved. You can always change them in My account &gt; My businesses.</string>
     <string name="onboarding_issuers_done_body_plural">Your business settings are saved. You can always change them in My account &gt; My businesses.</string>
-
     <string name="onboarding_mixed_hint_title">A bit of both</string>
     <string name="onboarding_mixed_hint_body">In that case, you will indicate the product type as you go, when adding them to your documents.</string>
-
     <string name="onboarding_client_country_intro_title">Client countries</string>
     <string name="onboarding_client_country_intro_body">Are your clients mostly in the same country?\n\nIf so, I can pre-fill it automatically.</string>
     <string name="onboarding_client_country_intro_yes">Yes</string>
     <string name="onboarding_client_country_intro_no">No, they are mixed</string>
-
     <string name="onboarding_client_country_picker_subtitle">Which country?</string>
     <string name="onboarding_client_country_picker_pick">Choose a country</string>
-
     <string name="onboarding_client_country_done_applied_title">Done</string>
     <string name="onboarding_client_country_done_applied_body">I saved this country for your clients who did not have one yet.</string>
     <string name="onboarding_client_country_done_skipped_title">No worries</string>
     <string name="onboarding_client_country_done_skipped_body">You can set your clients countries as you go, when adding them to a document.</string>
     <string name="onboarding_client_country_done_cta">Next</string>
-
     <string name="onboarding_unitcode_cta">OK</string>
     <string name="onboarding_unitcode_title">Unit code</string>
     <string name="onboarding_unitcode_part1">Another field I have changed in this version is the </string>
@@ -610,15 +578,12 @@
     <string name="onboarding_unitcode_part3"> (hour, kilo, piece). There will now be a </string>
     <string name="onboarding_unitcode_bold3">standardised code</string>
     <string name="onboarding_unitcode_part4"> to go with it.\n\n⚡ You do not need to do anything — I will figure out the unit code on my own!\n\nIf I do not recognise the unit, that is fine too ✅</string>
-
     <string name="onboarding_improvements_title">Little updates</string>
     <string name="onboarding_improvements_body">🔍 Search bar and alphabetical sort in the client and product pickers.\n\n📄 Exported PDF filenames are more explicit.\n\n📅 Document lists are grouped by month, prices are highlighted, and the number of days until the due date is shown.\n\n✏️ When editing a product from a document, you can apply the change to the product card as well (same option for clients).</string>
     <string name="onboarding_improvements_cta">Next</string>
-
     <string name="onboarding_thanks_title">Perfect!</string>
     <string name="onboarding_thanks_body">Thanks for your trust. See you soon!</string>
     <string name="onboarding_thanks_cta">Finish</string>
-
     <!-- Issuer form: VAT exemption + intra-EU sales toggles -->
     <string name="issuer_intra_eu_sales_label">Sales outside my country (EU)</string>
     <string name="issuer_intra_eu_sales_info_modal_title">Intra-EU sales</string>
@@ -638,7 +603,6 @@
     <string name="retention_edit_field_rate">Rate (%)</string>
     <string name="retention_hide_a11y">Hide on PDF</string>
     <string name="retention_show_a11y">Show on PDF</string>
-
     <!-- Quote (Devis) -->
     <string name="appbar_quotes">Quotes</string>
     <string name="quote_number">Quote No.</string>
@@ -647,22 +611,18 @@
     <string name="quote_advice_convert">I learned this move in hip-hop, super classy I know. Still gotta polish it — I'm not that fast yet, and my patagium slows the wave a bit. Anyway, I wanted to tell you\n\n …   </string>
     <string name="quote_advice_convert1">that if you want to convert one or more quotes into an invoice, you can select them from the list with a long tap (or by tapping the ○)\n\n …   </string>
     <string name="quote_advice_convert2">then tap «Invoice». It will appear at the top of the «Invoices» tab with the number incremented from the previous invoice.\n\n 𝕡𝕣𝕒𝕚𝕤𝕖 𝕞𝕖 </string>
-
     <!-- gStore delivery-note module -->
     <string name="gstore_module_delivery_note_title">Delivery notes</string>
     <string name="gstore_module_delivery_note_desc">Create delivery notes and convert them into invoices</string>
     <string name="gstore_module_delivery_note_detail">Enable this module to create delivery notes, send them to your clients, and convert them into an invoice once accepted.\n\nThe delivery note number will be shown on the matching invoice for accounting traceability.\n\nYou can convert a delivery note into an invoice, and group several DNs into a single invoice.</string>
-
     <!-- gStore sales-order module -->
     <string name="gstore_module_sales_order_title">Sales orders</string>
     <string name="gstore_module_sales_order_desc">Create and convert into an invoice or DN</string>
     <string name="gstore_module_sales_order_detail">Enable this module to create sales orders, send them to your clients, and convert them — into either an invoice or a delivery note — from the sales order menu.\n\nHandy for formalising the commercial agreement before delivery or invoicing. The sales order number is carried over on the generated invoice and DN for traceability.</string>
-
     <!-- gStore dashboard module -->
     <string name="gstore_module_dashboard_title">Dashboard</string>
     <string name="gstore_module_dashboard_desc">See your sales, best-selling products and per-client statement</string>
     <string name="gstore_module_dashboard_detail">Enable this module to see at a glance: your total sales per month, your best-selling products with their 12-month chart, and a month-by-month statement for each client (invoices, credit notes, DNs, SOs, quotes) — exportable to PDF or CSV.</string>
-
     <string name="gstore_module_multi_entreprise_title">Multi-business</string>
     <string name="gstore_module_multi_entreprise_desc">Manage several businesses</string>
     <string name="gstore_module_multi_entreprise_detail">Enable this module if you invoice under several businesses (different registration numbers, separate activities…).\n\nYou'll be able to add more businesses from "My account" and switch between them from the menu.\n\nYour clients, products, numbering and bank details will be kept separate per business.</string>
@@ -701,12 +661,10 @@
     <string name="cii_validation_due_date">Payment due date</string>
     <string name="cii_validation_vat_exemption_text">VAT exemption reason (fill in the text menu)</string>
     <string name="cii_validation_issuer_vat_id_missing_for_std_rated">The issuer has no VAT number. Add a VAT number to the issuer — otherwise the invoice will be rejected on receipt. If you're VAT-exempt, turn on the option on your company.</string>
-
     <!-- Text menu: VAT exemption editor (BT-120) — only shown when issuer.vatExempt -->
     <string name="document_vat_exemption_label">VAT exemption</string>
     <string name="document_vat_exemption_modal_title">VAT exemption reason</string>
     <string name="document_vat_exemption_placeholder">Enter the legal citation applicable to your business</string>
-
     <!-- Default VAT-exempt mentions — see values/strings.xml for design notes.
          National mentions are kept in the country's native language across all
          locales; only the two fallbacks get proper translations. -->
@@ -715,21 +673,17 @@
     <string name="vat_exempt_IT">VAT-exempt transaction — flat-rate regime (Law 190/2014, art. 1 §§ 54-89)</string>
     <string name="vat_exempt_fallback_eu">VAT exempt — special scheme for small enterprises (Article 284 of Directive 2006/112/EC)</string>
     <string name="vat_exempt_fallback_generic">Not registered for VAT</string>
-
     <!-- Country picker (address form) -->
     <string name="client_country">Country</string>
     <string name="country_picker_search">Search a country</string>
     <string name="country_picker_empty">No country found</string>
     <string name="country_picker_recent">Recent</string>
     <string name="country_picker_all">All countries</string>
-
     <!-- Info tooltip -->
     <string name="info_tooltip_ok">OK</string>
     <string name="info_tooltip_dismiss">Don't show again</string>
-
     <!-- Client price picker -->
     <string name="product_clientprice_select_placeholder">Select…</string>
-
     <!-- Product type (goods / service) -->
     <string name="product_type_label">Type</string>
     <string name="product_type_goods">Goods</string>
@@ -737,13 +691,11 @@
     <string name="product_type_info_modal_title">Product type</string>
     <string name="product_type_info_modal_content">Used to automatically determine the applicable VAT category. It's a mandatory field for e-invoicing compliance.\n\nDoes not appear on the PDF invoice.</string>
     <string name="product_type_info_desc">Product type info</string>
-
     <!-- Product unit code (UNECE Rec 20) -->
     <string name="product_unit_code_label">Unit code</string>
     <string name="product_unit_code_info_modal_title">Unit code</string>
     <string name="product_unit_code_info_modal_content">Deduced automatically from the unit you type. It's a mandatory field for e-invoicing compliance.\n\nDoes not appear on the PDF invoice.\n\nIf the unit you use doesn't match any code, no worries — that's also valid.</string>
     <string name="product_unit_code_info_desc">Unit code info</string>
-
     <!-- Unit picker (UNECE units bottom sheet) -->
     <string name="unit_picker_search">Search a unit</string>
     <string name="unit_picker_empty">No unit found</string>
@@ -757,7 +709,6 @@
     <string name="unit_picker_category_energy">Energy</string>
     <string name="unit_picker_category_service">Service</string>
     <string name="unit_picker_category_packaging">Packaging</string>
-
     <!-- Unit codes (UNECE Rec 20/21) — see FR file for the naming scheme. -->
 
     <!-- Count -->
@@ -779,7 +730,6 @@
     <string name="unit_lo_name">lot</string>
     <string name="unit_lo_short">lot</string>
     <string name="unit_lo_keywords">lot,lots</string>
-
     <!-- Length -->
     <string name="unit_mtr_name">metre</string>
     <string name="unit_mtr_keywords">metre,metres,meter,meters</string>
@@ -792,7 +742,6 @@
     <string name="unit_mmt_keywords">millimetre,millimetres,millimeter,millimeters</string>
     <string name="unit_kmt_name">kilometre</string>
     <string name="unit_kmt_keywords">kilometre,kilometres,kilometer,kilometers</string>
-
     <!-- Area -->
     <string name="unit_mtk_name">square metre</string>
     <string name="unit_mtk_keywords">square metre,square meter,sq m</string>
@@ -800,7 +749,6 @@
     <string name="unit_cmk_keywords">square centimetre,square centimeter,sq cm</string>
     <string name="unit_kmk_name">square kilometre</string>
     <string name="unit_kmk_keywords">square kilometre,square kilometer,sq km</string>
-
     <!-- Volume -->
     <string name="unit_ltr_name">litre</string>
     <string name="unit_ltr_keywords">litre,litres,liter,liters</string>
@@ -812,7 +760,6 @@
     <string name="unit_hlt_keywords">hectolitre,hectolitres,hectoliter,hectoliters</string>
     <string name="unit_mtq_name">cubic metre</string>
     <string name="unit_mtq_keywords">cubic metre,cubic meter,cu m</string>
-
     <!-- Weight -->
     <string name="unit_kgm_name">kilogram</string>
     <string name="unit_kgm_keywords">kilogram,kilograms,kilo,kilos</string>
@@ -823,7 +770,6 @@
     <string name="unit_dtn_name">decitonne</string>
     <string name="unit_dtn_short">dt</string>
     <string name="unit_dtn_keywords">decitonne,quintal,100 kg,dt</string>
-
     <!-- Time -->
     <string name="unit_hur_name">hour</string>
     <string name="unit_hur_keywords">hour,hours,hr</string>
@@ -841,7 +787,6 @@
     <string name="unit_ann_name">year</string>
     <string name="unit_ann_short">yr</string>
     <string name="unit_ann_keywords">year,years,yr</string>
-
     <!-- Energy -->
     <string name="unit_kwh_name">kilowatt hour</string>
     <string name="unit_kwh_short">kWh</string>
@@ -849,7 +794,6 @@
     <string name="unit_mwh_name">megawatt hour</string>
     <string name="unit_mwh_short">MWh</string>
     <string name="unit_mwh_keywords">megawatt hour,megawatt-hour,mwh</string>
-
     <!-- Service -->
     <string name="unit_act_name">activity</string>
     <string name="unit_act_short">act</string>
@@ -860,7 +804,6 @@
     <string name="unit_e51_name">job</string>
     <string name="unit_e51_short">job</string>
     <string name="unit_e51_keywords">job,jobs,work</string>
-
     <!-- Packaging / bulk -->
     <string name="unit_xbh_name">bunch</string>
     <string name="unit_xbh_short">bunch</string>
@@ -892,7 +835,6 @@
     <string name="unit_hea_name">head</string>
     <string name="unit_hea_short">head</string>
     <string name="unit_hea_keywords">head,heads,livestock,cattle</string>
-
     <!-- 1.9 migration wizard -->
     <string name="onboarding_19_welcome_title">Welcome to version 1.9 — Tilia cordata</string>
     <string name="onboarding_19_backup_title">Let's back up first</string>
@@ -913,7 +855,6 @@
     <string name="onboarding_19_cleanup_reassign_title">This company has documents</string>
     <string name="onboarding_19_cleanup_reassign_message">%1$d document(s) are attached to %2$s. Which company do you want to reassign them to?</string>
     <string name="onboarding_19_cleanup_reassign_confirm">Reassign and delete company</string>
-
     <!-- 1.9 orphan rescue dialog -->
     <string name="orphan_rescue_title">Small hiccup</string>
     <string name="orphan_rescue_message">During the previous version upgrade, %1$d document(s) weren't attached to a company. Reassign them or they'll stay hidden from your lists.</string>
@@ -960,7 +901,6 @@
     <string name="onboarding_19_final_title">All set, you're good to go!</string>
     <string name="entreprise_delete_blocked_title">Cannot delete</string>
     <string name="entreprise_delete_blocked_message">This company still has attached clients, products or documents. To delete it, remove them first.</string>
-
     <!-- Font picker (Fonts module) -->
     <string name="gstore_module_font_title">Fonts</string>
     <string name="gstore_module_font_desc">Change the font of your documents.</string>
@@ -969,28 +909,23 @@
     <string name="action_font_description">Choose the document font</string>
     <string name="font_picker_title">Document font</string>
     <string name="export_error_premium_font_message">Your document uses a premium font but you are not a premium member.</string>
-
     <!-- Delivery-note / Quote tags (masculine in FR) + Invoiced status -->
     <string name="appbar_tag_sent_masc">Sent</string>
     <string name="appbar_tag_cancelled_masc">Cancelled</string>
     <string name="appbar_tag_invoiced">Invoiced</string>
     <string name="appbar_tag_locked">Locked</string>
-
     <!-- gStore: Tag delivery notes -->
     <string name="gstore_module_delivery_note_tagging_title">Tag delivery notes</string>
     <string name="gstore_module_delivery_note_tagging_desc">Add a status to your delivery notes</string>
     <string name="gstore_module_delivery_note_tagging_detail">Turn this module on to add a status to your delivery notes: draft, sent, cancelled or invoiced.\n\nThe « Invoiced » status is applied automatically when a delivery note is converted into an invoice, but you can change it at any time.</string>
-
     <!-- gStore: Tag quotes -->
     <string name="gstore_module_quote_tagging_title">Tag quotes</string>
     <string name="gstore_module_quote_tagging_desc">Add a status to your quotes</string>
     <string name="gstore_module_quote_tagging_detail">Turn this module on to add a status to your quotes: draft, sent, cancelled or invoiced.\n\nThe « Invoiced » status is applied automatically when a quote is converted into an invoice, but you can change it at any time.</string>
-
     <!-- gStore: Product categories (2.1 premium) -->
     <string name="gstore_module_product_categories_title">Product categories</string>
     <string name="gstore_module_product_categories_desc">Organise your products with your own categories.</string>
     <string name="gstore_module_product_categories_detail">Turn this module on to define your own product categories.\n\nFrom a product sheet, you can assign a category to it; from the product list, you can select several products and categorise them in bulk.\n\nYou can filter your products by category.</string>
-
     <!-- Product categories (2.1) -->
     <string name="product_category">Category</string>
     <string name="product_categories_title">Categories</string>
@@ -1001,7 +936,6 @@
     <string name="product_categories_delete_confirm_body">Products that were in this category will stay, but they will no longer have a category.</string>
     <string name="product_categories_color_picker_title">Pick a colour</string>
     <string name="product_categories_empty_hint">Tap the Settings button below to add categories</string>
-
     <!-- 2.2 Sales orders (gStore premium) -->
     <string name="appbar_sales_orders">Sales orders</string>
     <string name="sales_order_default_number">SO001</string>
@@ -1011,7 +945,6 @@
     <string name="appbar_convert_to_delivery_note">Delivery note</string>
     <string name="delivery_note_created_body">Your delivery note has been created!</string>
     <string name="delivery_note_created_button">View my delivery note</string>
-
     <!-- 2.2 Dashboard (gStore premium) -->
     <string name="appbar_dashboard">Dashboard</string>
     <string name="dashboard_tab_invoices">Invoices</string>

@@ -8,8 +8,6 @@
 
     <!-- Product -->
     <string name="product_duplicate_suffix"> - Kopie</string>
-    <!-- Document footer -->
-    <string name="document_default_footer"></string>
     <string name="document_default_payment_terms">Bei Zahlungsverzug werden Verzugszinsen zum gesetzlichen Zinssatz sowie eine pauschale Entschädigung von 40 € erhoben. Kein Skonto bei Vorauszahlung.</string>
     <string name="document_payment_terms">Zahlungsbedingungen</string>
     <string name="payment_terms_recovery_fees_label">Beitreibungskosten</string>
@@ -37,7 +35,6 @@
     <string name="document_payment_section_title">Zahlung</string>
     <string name="invoice_paid">Bezahlt ✔</string>
     <string name="pdf_currency_notice">Währung: %1$s</string>
-
     <!-- Document table -->
     <string name="document_table_description">Bezeichnung</string>
     <string name="document_table_quantity">Menge</string>
@@ -59,8 +56,6 @@
     <string name="product_price_with_tax">Brutto</string>
     <!-- Alert Dialog Strings -->
     <string name="alert_dialog_delete_invoice_1">Bist du sicher? \n\nIn einigen Ländern ist es nicht legal, eine bereits versendete Rechnung zu löschen.\n\nIn jedem Fall kann die Löschung nicht rückgängig gemacht werden.</string>
-    <string name="alert_dialog_delete_invoice_2"></string>
-    <string name="alert_dialog_delete_invoice_3"></string>
     <string name="alert_dialog_delete_url">https://www.the-gate.fr/supprimer-ou-annuler-une-facture</string>
     <string name="alert_dialog_delete_general">Sind Sie sicher? Diese Aktion kann nicht rückgängig gemacht werden.</string>
     <string name="alert_dialog_delete_confirm">Ja, löschen</string>
@@ -118,14 +113,12 @@
     <string name="document_product_advice">Um ein Produkt zu ändern, klicke auf das graue Rechteck</string>
     <string name="document_product_advice_2">Die Änderung wirkt sich ausschließlich auf dieses Dokument aus …</string>
     <string name="document_product_advice_3">Sie beeinflusst nicht das gespeicherte Produkt im Reiter "Produkte".</string>
-
     <!-- Invoice list row — due-date countdown. \"T.\" = Tag abbreviated so the
          line stays as compact as the other locales. -->
     <string name="document_list_due_in_day">Fällig in %1$d T.</string>
     <string name="document_list_due_in_days">Fällig in %1$d T.</string>
     <string name="document_list_overdue_day">%1$d T. überfällig</string>
     <string name="document_list_overdue_days">%1$d T. überfällig</string>
-
     <!-- Product Form Strings -->
     <string name="product_name">Bezeichnung</string>
     <string name="product_name_input">Runkelrüben</string>
@@ -145,7 +138,6 @@
     <string name="product_delete_price">Diesen Preis löschen</string>
     <string name="document_product_quantity">Menge</string>
     <string name="document_product_quantity_input">1</string>
-
     <!-- Client/Issuer Form Strings -->
     <string name="client_section_identity">IDENTITÄT</string>
     <string name="client_section_address">ADRESSE</string>
@@ -226,13 +218,11 @@
     <string name="whats_new_done">Los geht's!</string>
     <string name="whats_new_welcome">Willkommen bei Version %1$s!</string>
     <string name="whats_new_discover">Viele neue Funktionen...</string>
-
     <!-- WhatsNew 2.2 slides -->
     <string name="whats_new_22_dashboard_title">Dashboard</string>
     <string name="whats_new_22_dashboard_description">Sieh Monat für Monat deinen Umsatz und deine meistverkauften Produkte mit visuellen Grafiken. Zugriff auf einen monatlichen Kundenauszug all deiner Dokumente. (Premium-Modul)</string>
     <string name="whats_new_22_sales_order_title">Auftragsbestätigungen</string>
     <string name="whats_new_22_sales_order_description">Erstelle Auftragsbestätigungen und wandle sie in eine Rechnung oder einen Lieferschein um. (Premium-Modul)</string>
-
     <string name="whats_new_gstore_title">𝕘Store</string>
     <string name="whats_new_gstore_description">Ein kleiner Shop, um weitere Funktionen freizuschalten.</string>
     <string name="whats_new_spanish_title">Hola, qué tal ?</string>
@@ -287,12 +277,10 @@
     <string name="appbar_tag_reminded">Erneut verschickt</string>
     <string name="appbar_product_add">Produkt hinzufügen</string>
     <string name="appbar_product_edit">Produkt bearbeiten</string>
-
     <!-- Drawer / Categories -->
     <string name="drawer_g8">Info</string>
     <string name="drawer_my_account">Mein Konto</string>
     <string name="drawer_my_company">Mein Unternehmen</string>
-
     <!-- First-launch onboarding: 5-slide wizard shown when no issuer exists in DB -->
     <string name="first_launch_welcome_title">Willkommen bei 𝕘𝟠 aka The Gate!</string>
     <string name="first_launch_welcome_amigo">Ich bin Little Rhino, dein neuer Amigo ♡</string>
@@ -445,7 +433,6 @@
     <string name="invoice_advice_legal_1">Tippe auf «Erstellen», um deine erste Rechnung anzulegen</string>
     <string name="invoice_advice_legal_2">Alle Dokumente, die du erstellst, werden automatisch im Hintergrund gespeichert. \n\n 𝕓𝕖𝕔𝕒𝕦𝕤𝕖 𝕚𝕞 𝕒 𝕓𝕒𝕥 𝕓𝕠𝕤𝕤 </string>
     <string name="onboarding_intro_amigo">Willkommen bei 𝕘𝟠, genannt: The Gate!\n\n Ich bin Kleine Hufnase, deine neue Freundin ♡</string>
-
     <string name="invoice_advice_legal_3">die Pflichtangaben für eine gesetzeskonforme Rechnung zu informieren. Um dir das Leben zu erleichtern, habe ich hier alles zusammengefasst: \n</string>
     <string name="invoice_advice_legal_4">the-gate.fr</string>
     <string name="invoice_advice_legal_5">Zu einem anderen Thema… \n …</string>
@@ -499,7 +486,6 @@ Es ist ein Fehler aufgetreten :
     <!-- Reminder email (invoice past due) -->
     <string name="send_reminder_email_subject">Mahnung: Rechnung Nr. %1$s</string>
     <string name="send_reminder_email_content">Hallo, \n\n Ihre Rechnung %1$s über einen Betrag von %2$s %4$s war am %3$s fällig. Wir haben bisher keine Zahlung von Ihnen erhalten.\n\n Wir bitten Sie, die Zahlung so bald wie möglich vorzunehmen.\n\n Mit freundlichen Grüßen\n</string>
-
     <!-- Database export dialog -->
     <string name="database_export_dialog_title">^._.^</string>
     <string name="database_export_dialog_intro">Hey! Ich empfehle dir, deine Datenbank herunterzuladen 💎\n\n</string>
@@ -517,7 +503,6 @@ Es ist ein Fehler aufgetreten :
     <string name="database_email_subject">Export meiner g8-Daten</string>
     <string name="database_email_body">Meine SQLite-Datenbank der g8-App. Sie enthält alle meine Daten (Kund·innen, Produkte, Rechnungsdaten..). Falls ich mein Telefon verliere, kann diese Datenbank verwendet werden, um meine Daten wiederherzustellen. Bei Fragen: contact@the-gate.fr.</string>
     <string name="database_email_chooser">Datenbank per E-Mail senden</string>
-
     <!-- gStore Quote (unlimited + trial) -->
     <string name="gstore_module_quote_title">Unbegrenzte Angebote</string>
     <string name="gstore_module_quote_desc">Angebote erstellen und in Rechnungen umwandeln</string>
@@ -528,33 +513,27 @@ Es ist ein Fehler aufgetreten :
     <string name="gstore_quote_trial_exhausted_title">Gratis-Kontingent aufgebraucht</string>
     <string name="gstore_quote_trial_exhausted_body">Deine 5 kostenlosen Angebote sind aufgebraucht. Wenn du weiterhin Angebote nutzen möchtest, kannst du Premium-Mitglied werden.</string>
     <string name="gstore_quote_trial_exhausted_cta">OK</string>
-
     <!-- Onboarding 1.8 -->
     <string name="onboarding_previous">Zurück</string>
     <string name="onboarding_next">Weiter</string>
     <string name="onboarding_yes">Ja</string>
     <string name="onboarding_no">Nein</string>
-
     <string name="onboarding_welcome_body">Willkommen bei Version\n1.8 - Rosa Canina</string>
     <string name="onboarding_welcome_cta">Entdecken</string>
-
     <string name="onboarding_devis_title">Angebote</string>
     <string name="onboarding_devis_body_bold">Angebote sind jetzt verfügbar</string>
     <string name="onboarding_devis_body_after_bold"> 🥳\n\nUnd du kannst sie in Rechnungen umwandeln.\n\nDu kannst die Funktion ausprobieren (max. 5 Angebote) und danach Premium-Mitglied werden für unbegrenzte Angebote!</string>
     <string name="onboarding_devis_cta_activate">Angebote aktivieren</string>
     <string name="onboarding_devis_cta_later_gstore">Später im gStore</string>
     <string name="onboarding_devis_cta_no_devis">Cool, aber brauche ich nicht!</string>
-
     <string name="onboarding_facturx_title">Neue Felder</string>
     <string name="onboarding_facturx_body_before_bold">Ich habe begonnen, Felder hinzuzufügen, damit deine Rechnungen standardisiert, besser lesbar und bereit für die elektronische Rechnungsstellung sind.\n\n</string>
     <string name="onboarding_facturx_body_bold">Ich brauche dich für ein paar Einstellungen.</string>
     <string name="onboarding_facturx_cta">OK</string>
-
     <string name="onboarding_privacy_title">Datenschutz</string>
     <string name="onboarding_privacy_body_p1">Damit du es weißt: Ich habe keinen Zugriff auf deine Antworten. Deine Daten werden nur auf deinem Telefon gespeichert.</string>
     <string name="onboarding_privacy_body_p2">Möchtest du übrigens schnell ein Backup machen?</string>
     <string name="onboarding_privacy_cta_backup">Meine Datenbank sichern</string>
-
     <string name="onboarding_cleanup_title">Deine Unternehmen</string>
     <string name="onboarding_cleanup_body_part1">Ich sehe, du verwaltest mehrere Unternehmen.\n\nWenn du einige davon nicht mehr nutzt, </string>
     <string name="onboarding_cleanup_body_bold_delete_here">kannst du sie hier löschen</string>
@@ -563,49 +542,38 @@ Es ist ein Fehler aufgetreten :
     <string name="onboarding_cleanup_delete_confirm_title">Dieses Unternehmen löschen?</string>
     <string name="onboarding_cleanup_delete_confirm_yes">Löschen</string>
     <string name="onboarding_cleanup_delete_confirm_no">Abbrechen</string>
-
     <string name="onboarding_issuer_country_subtitle">In welchem Land ist %1$s ansässig?</string>
     <string name="onboarding_issuer_country_pick">Land auswählen</string>
-
     <string name="onboarding_vat_subtitle">Bist du von der Umsatzsteuer befreit?</string>
     <string name="onboarding_vat_option_franchise">Ich bin von der Umsatzsteuer befreit</string>
     <string name="onboarding_vat_option_tva">Ich stelle Umsatzsteuer in Rechnung</string>
     <string name="onboarding_vat_option_dontknow">Ich weiß nicht</string>
-
     <string name="onboarding_vat_dontknow_title">Kein Problem</string>
     <string name="onboarding_vat_dontknow_body">Um herauszufinden, ob es dich betrifft, sieh in deinen letzten Steuerbescheid oder frag deine·n Steuerberater·in.\n\nBis dahin gehe ich davon aus, dass du Umsatzsteuer in Rechnung stellst. Du kannst das später in den Einstellungen deines Unternehmens ändern.</string>
     <string name="onboarding_vat_dontknow_cta">OK</string>
-
     <string name="onboarding_intraeu_subtitle">Verkaufst du manchmal an Kund·innen in einem anderen EU-Land?</string>
-
     <string name="onboarding_nature_title">Produkttyp</string>
     <string name="onboarding_nature_intro">Bei Unternehmen mit innergemeinschaftlicher Befreiung hängt der Steuercode davon ab, ob du Waren oder Dienstleistungen verkaufst.</string>
     <string name="onboarding_nature_question">Fallen deine Produkte unter…</string>
     <string name="onboarding_nature_only_services">Nur Dienstleistungen</string>
     <string name="onboarding_nature_only_goods">Nur Waren</string>
     <string name="onboarding_nature_mixed">Ein bisschen von beidem</string>
-
     <string name="onboarding_issuers_done_title">Fertig</string>
     <string name="onboarding_issuers_done_body_singular">Die Einstellungen deines Unternehmens sind gespeichert. Du kannst sie jederzeit unter Mein Konto &gt; Meine Unternehmen ändern.</string>
     <string name="onboarding_issuers_done_body_plural">Die Einstellungen deiner Unternehmen sind gespeichert. Du kannst sie jederzeit unter Mein Konto &gt; Meine Unternehmen ändern.</string>
-
     <string name="onboarding_mixed_hint_title">Ein bisschen von beidem</string>
     <string name="onboarding_mixed_hint_body">In dem Fall musst du den Produkttyp jeweils angeben, wenn du sie zu deinen Dokumenten hinzufügst.</string>
-
     <string name="onboarding_client_country_intro_title">Länder der Kund·innen</string>
     <string name="onboarding_client_country_intro_body">Sind deine Kund·innen meistens im gleichen Land?\n\nWenn ja, kann ich es automatisch vorausfüllen.</string>
     <string name="onboarding_client_country_intro_yes">Ja</string>
     <string name="onboarding_client_country_intro_no">Nein, gemischt</string>
-
     <string name="onboarding_client_country_picker_subtitle">In welchem Land?</string>
     <string name="onboarding_client_country_picker_pick">Land auswählen</string>
-
     <string name="onboarding_client_country_done_applied_title">Erledigt</string>
     <string name="onboarding_client_country_done_applied_body">Ich habe dieses Land für deine Kund·innen gespeichert, die noch keines hatten.</string>
     <string name="onboarding_client_country_done_skipped_title">Kein Problem</string>
     <string name="onboarding_client_country_done_skipped_body">Du kannst das Land deiner Kund·innen jeweils einstellen, wenn du sie einem Dokument hinzufügst.</string>
     <string name="onboarding_client_country_done_cta">Weiter</string>
-
     <string name="onboarding_unitcode_cta">OK</string>
     <string name="onboarding_unitcode_title">Einheitscode</string>
     <string name="onboarding_unitcode_part1">Ein weiteres Feld, das ich in dieser Version geändert habe, ist der </string>
@@ -615,15 +583,12 @@ Es ist ein Fehler aufgetreten :
     <string name="onboarding_unitcode_part3"> (Stunde, Kilo, Stück). Ab jetzt gibt es einen </string>
     <string name="onboarding_unitcode_bold3">normierten Code</string>
     <string name="onboarding_unitcode_part4"> der dazugehört.\n\n⚡ Du musst nichts tun, ich finde den Einheitscode ganz allein!\n\nWenn ich die Einheit nicht erkenne, ist das auch okay ✅</string>
-
     <string name="onboarding_improvements_title">Kleine Neuigkeiten</string>
     <string name="onboarding_improvements_body">🔍 Suchleiste und alphabetische Sortierung in den Kunden- und Produktauswahlen.\n\n📄 Die Namen der exportierten PDFs sind aussagekräftiger.\n\n📅 Die Dokumentlisten sind nach Monat gruppiert, die Preise hervorgehoben, und die Anzahl der Tage bis zur Fälligkeit wird angezeigt.\n\n✏️ Wenn du ein Produkt aus einem Dokument heraus änderst, kannst du die Änderung auch auf die Produktkarte übertragen (dieselbe Option für Kunden).</string>
     <string name="onboarding_improvements_cta">Weiter</string>
-
     <string name="onboarding_thanks_title">Perfekt!</string>
     <string name="onboarding_thanks_body">Danke für dein Vertrauen. Bis bald!</string>
     <string name="onboarding_thanks_cta">Fertig</string>
-
     <!-- Issuer form: VAT exemption + intra-EU sales toggles -->
     <string name="issuer_intra_eu_sales_label">Verkäufe außerhalb meines Landes (EU)</string>
     <string name="issuer_intra_eu_sales_info_modal_title">Innergemeinschaftliche Verkäufe</string>
@@ -643,7 +608,6 @@ Es ist ein Fehler aufgetreten :
     <string name="retention_edit_field_rate">Satz (%)</string>
     <string name="retention_hide_a11y">Auf PDF ausblenden</string>
     <string name="retention_show_a11y">Auf PDF anzeigen</string>
-
     <!-- Quote (Devis) -->
     <string name="appbar_quotes">Angebote</string>
     <string name="quote_number">Angebot Nr.</string>
@@ -652,22 +616,18 @@ Es ist ein Fehler aufgetreten :
     <string name="quote_advice_convert">Diesen Move habe ich beim Hip-Hop gelernt, ziemlich stylisch, ich weiß. Muss ihn noch üben, ich bin noch nicht so schnell, mein Patagium bremst die Welle wohl ein wenig. Jedenfalls wollte ich dir sagen\n\n …   </string>
     <string name="quote_advice_convert1">wenn du ein oder mehrere Angebote in eine Rechnung umwandeln möchtest, kannst du sie in der Liste per Lang-Tap auswählen (oder das ○ antippen)\n\n …   </string>
     <string name="quote_advice_convert2">und dann auf «In Rechnung» tippen. Sie erscheint oben im Reiter «Rechnungen» mit der fortlaufenden Nummer nach der vorherigen Rechnung.\n\n 𝕡𝕣𝕒𝕚𝕤𝕖 𝕞𝕖 </string>
-
     <!-- gStore delivery-note module -->
     <string name="gstore_module_delivery_note_title">Lieferscheine</string>
     <string name="gstore_module_delivery_note_desc">Lieferscheine erstellen und in Rechnungen umwandeln</string>
     <string name="gstore_module_delivery_note_detail">Aktiviere dieses Modul, um Lieferscheine zu erstellen, sie an deine Kund·innen zu senden und sie nach der Annahme in eine Rechnung umzuwandeln.\n\nDie Lieferscheinnummer erscheint auf der entsprechenden Rechnung für die buchhalterische Nachverfolgbarkeit.\n\nDu kannst einen Lieferschein in eine Rechnung umwandeln und mehrere Lieferscheine zu einer einzigen Rechnung zusammenfassen.</string>
-
     <!-- gStore sales-order module -->
     <string name="gstore_module_sales_order_title">Auftragsbestätigungen</string>
     <string name="gstore_module_sales_order_desc">Erstellen und in Rechnung oder Lieferschein umwandeln</string>
     <string name="gstore_module_sales_order_detail">Aktiviere dieses Modul, um Auftragsbestätigungen zu erstellen, sie an deine Kund·innen zu senden und sie — in eine Rechnung oder einen Lieferschein — direkt aus dem Auftragsbestätigungs-Menü umzuwandeln.\n\nPraktisch, um die geschäftliche Vereinbarung vor Lieferung oder Rechnungsstellung festzuhalten. Die Nummer der Auftragsbestätigung wird auf der erzeugten Rechnung und dem Lieferschein zur Nachverfolgbarkeit übernommen.</string>
-
     <!-- gStore dashboard module -->
     <string name="gstore_module_dashboard_title">Dashboard</string>
     <string name="gstore_module_dashboard_desc">Umsätze, meistverkaufte Produkte und Kundenauszug im Blick</string>
     <string name="gstore_module_dashboard_detail">Aktiviere dieses Modul, um auf einen Blick zu sehen: Monatsumsatz, meistverkaufte Produkte mit 12-Monats-Grafik und einen monatlichen Auszug pro Kund·in (Rechnungen, Gutschriften, Lieferscheine, Auftragsbestätigungen, Angebote) — als PDF oder CSV exportierbar.</string>
-
     <string name="gstore_module_multi_entreprise_title">Mehrere Unternehmen</string>
     <string name="gstore_module_multi_entreprise_desc">Mehrere Unternehmen verwalten</string>
     <string name="gstore_module_multi_entreprise_detail">Aktiviere dieses Modul, wenn du unter mehreren Unternehmen abrechnest (verschiedene Handelsregisternummern, getrennte Tätigkeiten…).\n\nDu kannst weitere Unternehmen unter „Mein Konto" hinzufügen und im Menü zwischen ihnen wechseln.\n\nDeine Kunden, Produkte, Nummernkreise und Bankdaten werden pro Unternehmen getrennt geführt.</string>
@@ -706,12 +666,10 @@ Es ist ein Fehler aufgetreten :
     <string name="cii_validation_due_date">Fälligkeitsdatum</string>
     <string name="cii_validation_vat_exemption_text">Grund der Steuerbefreiung (im Textmenü ausfüllen)</string>
     <string name="cii_validation_issuer_vat_id_missing_for_std_rated">Der Aussteller hat keine USt-IdNr. Füge dem Aussteller eine USt-IdNr. hinzu — sonst wird die Rechnung beim Empfang abgelehnt. Wenn du unter die Kleinunternehmerregelung fällst, aktiviere die Option in deinem Unternehmen.</string>
-
     <!-- Text menu: VAT exemption editor (BT-120) — only shown when issuer.vatExempt -->
     <string name="document_vat_exemption_label">Steuerbefreiung</string>
     <string name="document_vat_exemption_modal_title">Grund der Steuerbefreiung</string>
     <string name="document_vat_exemption_placeholder">Bitte die für Ihr Unternehmen geltende gesetzliche Grundlage angeben</string>
-
     <!-- Default VAT-exempt mentions — see values/strings.xml for design notes.
          National mentions kept in native language across all locales. -->
     <string name="vat_exempt_FR">Mehrwertsteuer nicht anwendbar, Art. 293 B CGI</string>
@@ -719,21 +677,17 @@ Es ist ein Fehler aufgetreten :
     <string name="vat_exempt_IT">Umsatzsteuerfreier Vorgang — Pauschalregelung (Gesetz 190/2014, Art. 1 §§ 54-89)</string>
     <string name="vat_exempt_fallback_eu">Umsatzsteuerfrei — Sonderregelung für Kleinunternehmen (Art. 284 der Richtlinie 2006/112/EG)</string>
     <string name="vat_exempt_fallback_generic">Nicht umsatzsteuerpflichtig</string>
-
     <!-- Country picker (address form) -->
     <string name="client_country">Land</string>
     <string name="country_picker_search">Land suchen</string>
     <string name="country_picker_empty">Kein Land gefunden</string>
     <string name="country_picker_recent">Zuletzt verwendet</string>
     <string name="country_picker_all">Alle Länder</string>
-
     <!-- Info tooltip -->
     <string name="info_tooltip_ok">OK</string>
     <string name="info_tooltip_dismiss">Nicht mehr anzeigen</string>
-
     <!-- Client price picker -->
     <string name="product_clientprice_select_placeholder">Auswählen…</string>
-
     <!-- Product type (goods / service) -->
     <string name="product_type_label">Typ</string>
     <string name="product_type_goods">Ware</string>
@@ -741,13 +695,11 @@ Es ist ein Fehler aufgetreten :
     <string name="product_type_info_modal_title">Produkttyp</string>
     <string name="product_type_info_modal_content">Wird verwendet, um die anzuwendende MwSt.-Kategorie automatisch zu bestimmen. Pflichtfeld für die E-Rechnungs-Konformität.\n\nErscheint nicht auf der PDF-Rechnung.</string>
     <string name="product_type_info_desc">Info Produkttyp</string>
-
     <!-- Product unit code (UNECE Rec 20) -->
     <string name="product_unit_code_label">Einheitencode</string>
     <string name="product_unit_code_info_modal_title">Einheitencode</string>
     <string name="product_unit_code_info_modal_content">Wird automatisch aus der von dir eingegebenen Einheit abgeleitet. Pflichtfeld für die E-Rechnungs-Konformität.\n\nErscheint nicht auf der PDF-Rechnung.\n\nWenn die von dir verwendete Einheit keinem Code entspricht, kein Problem — das ist auch gültig.</string>
     <string name="product_unit_code_info_desc">Info Einheitencode</string>
-
     <!-- Unit picker (UNECE units bottom sheet) -->
     <string name="unit_picker_search">Einheit suchen</string>
     <string name="unit_picker_empty">Keine Einheit gefunden</string>
@@ -761,7 +713,6 @@ Es ist ein Fehler aufgetreten :
     <string name="unit_picker_category_energy">Energie</string>
     <string name="unit_picker_category_service">Dienstleistung</string>
     <string name="unit_picker_category_packaging">Verpackung</string>
-
     <!-- Unit codes (UNECE Rec 20/21) — siehe FR-Datei für das Namensschema. -->
 
     <!-- Zählung -->
@@ -783,7 +734,6 @@ Es ist ein Fehler aufgetreten :
     <string name="unit_lo_name">Los</string>
     <string name="unit_lo_short">Los</string>
     <string name="unit_lo_keywords">los,lose,charge</string>
-
     <!-- Länge -->
     <string name="unit_mtr_name">Meter</string>
     <string name="unit_mtr_keywords">meter</string>
@@ -796,7 +746,6 @@ Es ist ein Fehler aufgetreten :
     <string name="unit_mmt_keywords">millimeter</string>
     <string name="unit_kmt_name">Kilometer</string>
     <string name="unit_kmt_keywords">kilometer</string>
-
     <!-- Fläche -->
     <string name="unit_mtk_name">Quadratmeter</string>
     <string name="unit_mtk_keywords">quadratmeter</string>
@@ -804,7 +753,6 @@ Es ist ein Fehler aufgetreten :
     <string name="unit_cmk_keywords">quadratzentimeter</string>
     <string name="unit_kmk_name">Quadratkilometer</string>
     <string name="unit_kmk_keywords">quadratkilometer</string>
-
     <!-- Volumen -->
     <string name="unit_ltr_name">Liter</string>
     <string name="unit_ltr_keywords">liter</string>
@@ -816,7 +764,6 @@ Es ist ein Fehler aufgetreten :
     <string name="unit_hlt_keywords">hektoliter</string>
     <string name="unit_mtq_name">Kubikmeter</string>
     <string name="unit_mtq_keywords">kubikmeter</string>
-
     <!-- Gewicht -->
     <string name="unit_kgm_name">Kilogramm</string>
     <string name="unit_kgm_keywords">kilogramm,kilo</string>
@@ -827,7 +774,6 @@ Es ist ein Fehler aufgetreten :
     <string name="unit_dtn_name">Dezitonne</string>
     <string name="unit_dtn_short">dt</string>
     <string name="unit_dtn_keywords">dezitonne,doppelzentner,100 kg,dt</string>
-
     <!-- Zeit -->
     <string name="unit_hur_name">Stunde</string>
     <string name="unit_hur_keywords">stunde,stunden,std</string>
@@ -845,7 +791,6 @@ Es ist ein Fehler aufgetreten :
     <string name="unit_ann_name">Jahr</string>
     <string name="unit_ann_short">J</string>
     <string name="unit_ann_keywords">jahr,jahre,j</string>
-
     <!-- Energie -->
     <string name="unit_kwh_name">Kilowattstunde</string>
     <string name="unit_kwh_short">kWh</string>
@@ -853,7 +798,6 @@ Es ist ein Fehler aufgetreten :
     <string name="unit_mwh_name">Megawattstunde</string>
     <string name="unit_mwh_short">MWh</string>
     <string name="unit_mwh_keywords">megawattstunde,mwh</string>
-
     <!-- Dienstleistung -->
     <string name="unit_act_name">Aktivität</string>
     <string name="unit_act_short">Akt</string>
@@ -864,7 +808,6 @@ Es ist ein Fehler aufgetreten :
     <string name="unit_e51_name">Leistung</string>
     <string name="unit_e51_short">Lstg</string>
     <string name="unit_e51_keywords">leistung,leistungen,lstg</string>
-
     <!-- Verpackung / lose -->
     <string name="unit_xbh_name">Bund</string>
     <string name="unit_xbh_short">Bund</string>
@@ -896,7 +839,6 @@ Es ist ein Fehler aufgetreten :
     <string name="unit_hea_name">Kopf</string>
     <string name="unit_hea_short">Kopf</string>
     <string name="unit_hea_keywords">kopf,kopfe,köpfe,vieh,tiere</string>
-
     <!-- 1.9 migration wizard -->
     <string name="onboarding_19_welcome_title">Willkommen zu Version 1.9 — Tilia cordata</string>
     <string name="onboarding_19_backup_title">Sichern wir zuerst</string>
@@ -917,7 +859,6 @@ Es ist ein Fehler aufgetreten :
     <string name="onboarding_19_cleanup_reassign_title">Dieses Unternehmen hat Dokumente</string>
     <string name="onboarding_19_cleanup_reassign_message">%1$d Dokument(e) sind %2$s zugeordnet. Welchem Unternehmen möchtest du sie zuordnen?</string>
     <string name="onboarding_19_cleanup_reassign_confirm">Zuordnen und Unternehmen löschen</string>
-
     <!-- 1.9 orphan rescue dialog -->
     <string name="orphan_rescue_title">Kleine Panne</string>
     <string name="orphan_rescue_message">Beim vorherigen Versions-Upgrade wurden %1$d Dokument(e) keinem Unternehmen zugeordnet. Ordne sie zu, sonst bleiben sie in deinen Listen unsichtbar.</string>
@@ -964,7 +905,6 @@ Es ist ein Fehler aufgetreten :
     <string name="onboarding_19_final_title">Alles klar, du bist startklar!</string>
     <string name="entreprise_delete_blocked_title">Löschen nicht möglich</string>
     <string name="entreprise_delete_blocked_message">Diesem Unternehmen sind noch Kunden, Produkte oder Dokumente zugeordnet. Um es zu löschen, entfernen Sie diese zuerst.</string>
-
     <!-- Font picker (Modul Schriftarten) -->
     <string name="gstore_module_font_title">Schriftarten</string>
     <string name="gstore_module_font_desc">Ändere die Schriftart deiner Dokumente.</string>
@@ -973,28 +913,23 @@ Es ist ein Fehler aufgetreten :
     <string name="action_font_description">Dokumentschriftart wählen</string>
     <string name="font_picker_title">Dokumentschriftart</string>
     <string name="export_error_premium_font_message">Dein Dokument verwendet eine Premium-Schriftart, aber du bist kein Premium-Mitglied.</string>
-
     <!-- Lieferschein- / Angebots-Status (im FR maskulin) + Status „In Rechnung gestellt“ -->
     <string name="appbar_tag_sent_masc">Gesendet</string>
     <string name="appbar_tag_cancelled_masc">Storniert</string>
     <string name="appbar_tag_invoiced">In Rechnung gestellt</string>
     <string name="appbar_tag_locked">Gesperrt</string>
-
     <!-- gStore: Lieferscheine markieren -->
     <string name="gstore_module_delivery_note_tagging_title">Lieferscheine markieren</string>
     <string name="gstore_module_delivery_note_tagging_desc">Deinen Lieferscheinen einen Status hinzufügen</string>
     <string name="gstore_module_delivery_note_tagging_detail">Aktiviere dieses Modul, um deinen Lieferscheinen einen Status hinzuzufügen: Entwurf, Gesendet, Storniert oder In Rechnung gestellt.\n\nDer Status „In Rechnung gestellt“ wird automatisch gesetzt, wenn ein Lieferschein in eine Rechnung umgewandelt wird. Du kannst ihn jederzeit ändern.</string>
-
     <!-- gStore: Angebote markieren -->
     <string name="gstore_module_quote_tagging_title">Angebote markieren</string>
     <string name="gstore_module_quote_tagging_desc">Deinen Angeboten einen Status hinzufügen</string>
     <string name="gstore_module_quote_tagging_detail">Aktiviere dieses Modul, um deinen Angeboten einen Status hinzuzufügen: Entwurf, Gesendet, Storniert oder In Rechnung gestellt.\n\nDer Status „In Rechnung gestellt“ wird automatisch gesetzt, wenn ein Angebot in eine Rechnung umgewandelt wird. Du kannst ihn jederzeit ändern.</string>
-
     <!-- gStore: Produktkategorien (2.1 Premium) -->
     <string name="gstore_module_product_categories_title">Produktkategorien</string>
     <string name="gstore_module_product_categories_desc">Organisiere deine Produkte mit eigenen Kategorien.</string>
     <string name="gstore_module_product_categories_detail">Aktiviere dieses Modul, um deine eigenen Produktkategorien festzulegen.\n\nIn der Produktansicht kannst du einem Produkt eine Kategorie zuweisen; in der Produktliste kannst du mehrere Produkte auswählen und sie gemeinsam kategorisieren.\n\nDu kannst deine Produkte nach Kategorie filtern.</string>
-
     <!-- Produktkategorien (2.1) -->
     <string name="product_category">Kategorie</string>
     <string name="product_categories_title">Kategorien</string>
@@ -1005,7 +940,6 @@ Es ist ein Fehler aufgetreten :
     <string name="product_categories_delete_confirm_body">Produkte, die in dieser Kategorie waren, bleiben erhalten, haben aber keine Kategorie mehr.</string>
     <string name="product_categories_color_picker_title">Farbe wählen</string>
     <string name="product_categories_empty_hint">Tippe auf die Einstellungstaste unten, um Kategorien hinzuzufügen</string>
-
     <!-- 2.2 Auftragsbestätigungen (gStore Premium) -->
     <string name="appbar_sales_orders">Auftragsbestätigungen</string>
     <string name="sales_order_default_number">AB001</string>
@@ -1015,7 +949,6 @@ Es ist ein Fehler aufgetreten :
     <string name="appbar_convert_to_delivery_note">Lieferschein</string>
     <string name="delivery_note_created_body">Dein Lieferschein wurde erstellt!</string>
     <string name="delivery_note_created_button">Lieferschein ansehen</string>
-
     <!-- 2.2 Dashboard (gStore Premium) -->
     <string name="appbar_dashboard">Dashboard</string>
     <string name="dashboard_tab_invoices">Rechnungen</string>
